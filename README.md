@@ -1,25 +1,16 @@
-# Advanced Data Analysis Techniques & Business Insights
+# Data Analytics Projects — Victoria Solutions Internship
 
-## Objective
-Apply advanced data analysis techniques to a retail sales dataset to understand customer behaviour, identify patterns, and forecast trends — supporting marketing strategy, inventory planning, and customer retention.
+A collection of 4 projects completed during my Data Analyst internship, progressing from foundational sales analysis to SQL-based data cleaning with Power BI reporting, advanced statistical techniques, and AI-assisted anomaly detection & automated reporting.
 
-## Data
-Retail sales dataset including spend, region, and churn-related fields.
+| # | Project | Focus | Tools |
+|---|---------|-------|-------|
+| 01 | [Sales Analysis Project](./01-sales-analysis-project) | Exploratory analysis of sales trends and revenue drivers | Python (Pandas, Matplotlib, Seaborn) |
+| 02 | [Data Cleaning & Power BI Dashboard](./02-data-cleaning-sql-powerbi) | SQL-based data cleaning and interactive reporting | SQL, Power BI |
+| 03 | [Advanced Data Analysis Techniques](./03-advanced-data-analysis-techniques) | Predictive modelling and customer segmentation | Python |
+| 04 | [AI-Powered Data Analysis & Automation](./04-ai-powered-data-analysis-automation) | Anomaly detection, correlation analysis, automated reporting | Python, AI-assisted analysis |
 
-## Tools Used
-Python (Pandas, statistical methods)
+## About
+Each folder contains the analysis notebook/files plus a README describing the objective, approach, and business insight. Projects use practice datasets provided during the internship program, not live company data.
 
-## Approach
-- **Missing values:** Numerical columns (e.g. `Total_Spend`) imputed using median to preserve distribution; categorical columns (e.g. `Region`) imputed using mode
-- **Outlier detection:** Z-score method applied to `Marketing_Spend` and `Total_Spend`; entries with |Z| > 3 removed
-- **Standardisation:** Cleaned categorical columns (whitespace, casing) for consistency; `Churned` column prepared for modelling
-- Applied predictive modelling and customer segmentation techniques
-
-## Key Findings
-*(Fill in after review — what did the segmentation/prediction actually show?)*
-
-## Business Insight
-*(Fill in after your weekend review — how does this inform marketing, inventory, or retention decisions specifically?)*
-
-## What I'd Do Differently Now
-*(Optional growth note)*
+## Note on AI Assistance
+Some of these projects were built with the support of AI tools to accelerate exploration and automate parts of the workflow which I've reviewed and can explain the logic, methods, and outputs in each. This reflects how I actually work as an analyst: using available tools efficiently while owning the interpretation and business reasoning.
